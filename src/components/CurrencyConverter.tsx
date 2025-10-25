@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { fetchLatestRates } from "../services/exchangeApi";
 import type { RatesResponse } from "../types";
-import { FaExchangeAlt } from "react-icons/fa";
+import img from "../assets/exchage.svg";
+
 
 const DEFAULT_BASE = "USD";
 
@@ -129,9 +130,10 @@ const CurrencyConverter: React.FC = () => {
           className="swap-button"
           onClick={handleSwap}
           title="Swap currencies"
-          disabled={isLoading}
+          // disabled={isLoading}
         >
-          <FaExchangeAlt />
+          <img src={img}width={"40px"}  alt="" />
+          
         </button>
 
         <select

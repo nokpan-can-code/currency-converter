@@ -9,7 +9,7 @@ A modern, real-time currency converter built with **React**, **TypeScript**, and
 ## 🌟 Features
 
 - ✅ **Real-time Exchange Rates** - Fetches latest currency conversion rates
-- ✅ **160+ Currencies** - Support for all major world currencies
+- ✅ **159+ Currencies** - Support for all major world currencies
 - ✅ **Swap Function** - Quickly reverse currency conversion
 - ✅ **Copy to Clipboard** - One-click copy of converted amount
 - ✅ **Responsive Design** - Works on desktop, tablet, and mobile
